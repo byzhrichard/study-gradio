@@ -24,9 +24,6 @@ def flip_text(a1,a2,a3,a4,a5,a6,a7,a8,a9):#翻转字符串
 def flip_image(x):
     return np.fliplr(x)
 with gr.Blocks() as demo:
-    #用markdown语法编辑输出一段话
-    gr.Markdown("Flip text or image files using this demo.")
-
     with gr.Tab("3x3"):# 设置tab选项卡
         #Blocks特有组件，设置所有子组件按垂直排列(垂直排列是默认情况，不加也没关系)
         with gr.Row():
