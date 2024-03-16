@@ -1,0 +1,5 @@
+文本框 gr.Textbox(label="Name") 返回值：string
+文本  gr.Markdown("Flip text or image files using this demo.")
+
+
+按钮  gr.Button("Greet")

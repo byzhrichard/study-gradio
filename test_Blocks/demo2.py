@@ -1,5 +1,13 @@
 import numpy as np
 import gradio as gr
+
+# with gr.Tab("Flip Text"):  # 设置tab选项卡
+#     with gr.Column():  # 垂直排列
+#         xxx
+# with gr.Tab("Flip Image"):  # 设置tab选项卡
+#     with gr.Row():  # 水平排列
+
+# Blocks特有组件，设置所有子组件按水平排列
 def flip_text(x):#翻转字符串
     return x[::-1]
 def flip_image(x):
